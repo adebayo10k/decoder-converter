@@ -1,5 +1,5 @@
 #!/bin/bash
-#: Title			:util.decoder_converter
+#: Title			:utils.decoder_converter
 #: Date				:2019-06-10
 #: Author			:"Damola Adebayo" <damola@algoLifeNetworks.com>
 #: Version			:1.0
@@ -119,7 +119,7 @@ do
 	echo "starting order: ${#bits}"
 
 	if [ ${#bits} -gt 6 ]; then
-		echo "unexpected number of bits outside b64 table range,\(>6, as 63 is 111111\) exitting"
+		echo "unexpected number of bits outside b64 table range,\(>6, as 63 is 111111\) exiting"
 		exit 1
 	fi
 
@@ -145,7 +145,7 @@ do
 				#echo $bits
 				#echo "new order: ${#bits}"
 				;;
-		*)	echo "unexpected number of bits,\(must be 0\) exitting"
+		*)	echo "unexpected number of bits,\(must be 0\) exiting"
 				exit 1
 				;;
 		esac
