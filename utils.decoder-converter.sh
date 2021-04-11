@@ -1,5 +1,5 @@
 #!/bin/bash
-#: Title			:utils.decoder_converter
+#: Title			:utils.decoder-converter
 #: Date				:2019-06-10
 #: Author			:"Damola Adebayo" <damola@algoLifeNetworks.com>
 #: Version			:1.0
